@@ -21,7 +21,7 @@ func RemoveNonImagePosts(memes []models.Meme) []models.Meme {
 
 	for _, meme := range memes {
 		url := meme.URL
-		if url[len(url)-4:] == ".jpg" || url[len(url)-4:] == ".png" || url[len(url)-4:] == ".gif" {
+		if url[len(url)-4:] == ".jpg" || url[len(url)-4:] == ".png" ||url[len(url)-4:] == ".gifv" || url[len(url)-4:] == ".mp4" || url[len(url)-4:] == ".gif" {
 			onlyImagePosts = append(onlyImagePosts, meme)
 		}
 	}
