@@ -36,7 +36,7 @@ func GetOnePostFromSub(c *gin.Context) {
 		}
 
 		// Remove Non Image posts from the Array
-		freshMemes = utils.RemoveNonImagePosts(freshMemes)
+		//freshMemes = utils.RemoveNonImagePosts(freshMemes)
 
 		// Write sub posts to Cache
 		if err := redis.WritePostsToCache(sub, freshMemes); err != nil {
