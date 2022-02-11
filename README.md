@@ -6,7 +6,7 @@
 
 JSON API for a random meme scraped from reddit.
 
-API Link : [https://meme-api.herokuapp.com/gimme](https://meme-api.herokuapp.com/gimme)
+API Link : [https://meme-api.herokuapp.com/gimme](https://catmemeapi.herokuapp.com/gimme)
 
 **Example Response:**
 
@@ -37,9 +37,9 @@ API Link : [https://meme-api.herokuapp.com/gimme](https://meme-api.herokuapp.com
 
 In order to get multiple memes in a single request specify the count with the following endpoint.
 
-Endpoint: [/gimme/{count}](https://meme-api.herokuapp.com/gimme/2)
+Endpoint: [/gimme/{count}](https://catmemeapi.herokuapp.com/gimme/2)
 
-Example: [https://meme-api.herokuapp.com/gimme/2](https://meme-api.herokuapp.com/gimme/2)
+Example: [https://catmemeapi.herokuapp.com/gimme/2](https://catmemeapi.herokuapp.com/gimme/2)
 
 Response:
 
@@ -86,9 +86,9 @@ Response:
 
 By default the API grabs a random meme from '_memes_', '_dankmemes_', '_me_irl_' subreddits. To provide your own custom subreddit use the following endpoint.
 
-Endpoint: [/gimme/{subreddit}](https://meme-api.herokuapp.com/gimme/wholesomememes)
+Endpoint: [/gimme/{subreddit}](https://catmemeapi.herokuapp.com/gimme/wholesomememes)
 
-Example: [https://meme-api.herokuapp.com/gimme/wholesomememes](https://meme-api.herokuapp.com/gimme/wholesomememes)
+Example: [https://catmemeapi.herokuapp.com/gimme/wholesomememes](https://catmemeapi.herokuapp.com/gimme/wholesomememes)
 
 Response:
 
@@ -115,9 +115,9 @@ Response:
 
 In order to get a custom number of memes from a specific subreddit provide the name of the subreddit and the count in the following endpoint.
 
-Endpoint: [/gimme/{subreddit}/{count}](https://meme-api.herokuapp.com/gimme/wholesomememes/2)
+Endpoint: [/gimme/{subreddit}/{count}](https://catmemeapi.herokuapp.com/gimme/wholesomememes/2)
 
-Example: [https://meme-api.herokuapp.com/gimme/wholesomememes/2](https://meme-api.herokuapp.com/gimme/wholesomememes/2)
+Example: [https://catmemeapi.herokuapp.com/gimme/wholesomememes/2](https://catmemeapi.herokuapp.com/gimme/wholesomememes/2)
 
 Response:
 
