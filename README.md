@@ -6,7 +6,7 @@
 
 JSON API for a random meme scraped from reddit.
 
-API Link : [https://meme-api.herokuapp.com/gimme](https://catmemeapi.herokuapp.com/gimme)
+API Link : [https://catmemeapi.herokuapp.com/gimme](https://catmemeapi.herokuapp.com/gimme)
 
 **Example Response:**
 
