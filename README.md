@@ -6,7 +6,7 @@
 
 JSON API for a random meme scraped from reddit.
 
-API Link : [https://catmemeapi.herokuapp.com/gimme](https://catmemeapi.herokuapp.com/gimme)
+API Link : [https://catmemeapi2023.herokuapp.com/gimme](https://catmemeapi2023.herokuapp.com/gimme)
 
 **Example Response:**
 
@@ -37,9 +37,9 @@ API Link : [https://catmemeapi.herokuapp.com/gimme](https://catmemeapi.herokuapp
 
 In order to get multiple memes in a single request specify the count with the following endpoint.
 
-Endpoint: [/gimme/{count}](https://catmemeapi.herokuapp.com/gimme/2)
+Endpoint: [/gimme/{count}](https://catmemeapi2023.herokuapp.com/gimme/2)
 
-Example: [https://catmemeapi.herokuapp.com/gimme/2](https://catmemeapi.herokuapp.com/gimme/2)
+Example: [https://catmemeapi2023.herokuapp.com/gimme/2](https://catmemeapi.herokuapp.com/gimme/2)
 
 Response:
 
@@ -86,9 +86,9 @@ Response:
 
 By default the API grabs a random meme from '_memes_', '_dankmemes_', '_me_irl_' subreddits. To provide your own custom subreddit use the following endpoint.
 
-Endpoint: [/gimme/{subreddit}](https://catmemeapi.herokuapp.com/gimme/wholesomememes)
+Endpoint: [/gimme/{subreddit}](https://catmemeapi2023.herokuapp.com/gimme/wholesomememes)
 
-Example: [https://catmemeapi.herokuapp.com/gimme/wholesomememes](https://catmemeapi.herokuapp.com/gimme/wholesomememes)
+Example: [https://catmemeapi2023.herokuapp.com/gimme/wholesomememes](https://catmemeapi2023.herokuapp.com/gimme/wholesomememes)
 
 Response:
 
